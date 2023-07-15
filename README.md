@@ -16,7 +16,17 @@ Then, prepare your own (pretrain or finetune)data in file/data.
 ## Usage
 
 ### Pretraining
-If implement pretraining version of BERT, choose configuration file and write down "pretrain".
+If run pretraining version of BERT, choose configuration file and write down "pretrain" in input.
 ```
 python __main__.py pretrain.json
+pretrain
+```
+
+### Fintune(Glue Dataset)
+If run finetuning version of BERT ,choose configuration file and write down "finetune" in input.
+Or if run with gluedataset, write down glue dataset name after write down train method
+```
+python __main__.py finetune.json
+finetune
+{Glue Dataset Name}
 ```
