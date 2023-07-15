@@ -16,7 +16,7 @@ Then, prepare your own (pretrain or finetune)data in file/data.
 ## Usage
 
 ### Pretraining
-
+If implement pretraining version of BERT, choose configuration file and write down "pretrain".
 ```
 python __main__.py pretrain.json
 ```
