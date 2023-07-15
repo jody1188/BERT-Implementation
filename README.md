@@ -10,3 +10,13 @@ pip install -r requirements.txt
 ```
 
 ## Data preparation
+
+Then, prepare your own (pretrain or finetune)data in file/data.
+
+## Usage
+
+### Pretraining
+
+```
+python __main__.py pretrain.json
+```
